@@ -50,7 +50,7 @@ function App() {
     <div className="row text-center mt-5">
       <div className="col-md-12">
         <form className="form-group d-flex" onSubmit={getSearch}>
-          <input className="form-control ml-3" type="text" value={search} onChange={updateSearch} />
+          <input className="form-control mr-3" type="text" value={search} onChange={updateSearch} />
           <button  className="btn btn-outline-primary" type="submit" >search</button>
         </form> 
       </div>

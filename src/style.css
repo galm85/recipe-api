@@ -9,3 +9,11 @@
 
     
 }
+
+.recipe button a{
+    text-decoration: none;
+}
+
+.recipe button a:visited{
+    text-decoration: none;
+}
